@@ -23,14 +23,13 @@ theme = WebpackThemeBundle(
     themes={
         "semantic-ui": dict(
             entry={
-                'nr-documents-search': './js/nr_documents/search/index.js'
+                'nr-documents-search': './js/nr_documents_app/search/index.js'
             },
             dependencies={
             },
             aliases={
                 '@js/nr_documents_app': 'js/nr_documents_app',
                 '@uijs/nr_documents_app': 'js/nr_documents_app/ui_components',
-                '@uijs': 'js'
             }
         )
     },
