@@ -96,27 +96,26 @@ const searchResultItem = [
         },
         width: '1',
         items: [
-          // TODO: fix icon comp
-          // {
-          //   component: 'icon',
-          //   dataField: 'access_status',
-          //   iconSet: {
-          //     open: {
-          //       src:
-          //         'https://github.com/Narodni-repozitar/nr-ui/raw/master/public/icons/locks/zamky_open_access.png',
-          //     },
-          //   },
-          // },
-          // {
-          //   component: 'icon',
-          //   dataField: 'rights',
-          //   iconSet: {
-          //     'CC BY-ND': {
-          //       src:
-          //         'https://raw.githubusercontent.com/Narodni-repozitar/nr-ui/master/src/assets/licenses/by-nd.png',
-          //     },
-          //   },
-          // },
+          {
+            component: 'icon',
+            dataField: 'access_status',
+            iconSet: {
+              open: {
+                src:
+                  'https://github.com/Narodni-repozitar/nr-ui/raw/master/public/icons/locks/zamky_open_access.png',
+              },
+            },
+          },
+          {
+            component: 'icon',
+            dataField: 'rights',
+            iconSet: {
+              'CC BY-ND': {
+                src:
+                  'https://raw.githubusercontent.com/Narodni-repozitar/nr-ui/master/src/assets/licenses/by-nd.png',
+              },
+            },
+          },
         ],
       },
       {
